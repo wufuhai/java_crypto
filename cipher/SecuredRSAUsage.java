@@ -11,7 +11,7 @@ public class SecuredRSAUsage {
 
         static int RSA_KEY_LENGTH = 4096;
         static String ALGORITHM_NAME = "RSA" ;
-        static String PADDING_SCHEME = "OAEPWITHSHA-512ANDMGF1PADDING" ;
+        static String PADDING_SCHEME = "PKCS1Padding" ;
         static String MODE_OF_OPERATION = "ECB" ; // This essentially means none behind the scene
 
         public static void main(String args[]) {
